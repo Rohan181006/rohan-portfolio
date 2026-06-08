@@ -6,7 +6,6 @@ const links = [
   { href: "#experience", label: "Experience" },
   { href: "#skills", label: "Skills" },
   { href: "#projects", label: "Projects" },
-  { href: "#contact", label: "Contact" },
 ];
 
 export function Navbar() {
@@ -55,7 +54,7 @@ export function Navbar() {
             href="#contact"
             className="hidden md:inline-flex items-center rounded-xl bg-gradient-brand px-4 py-2 text-sm font-medium text-primary-foreground shadow-glow hover:opacity-90 transition"
           >
-            Let's Talk
+            Contact
           </a>
 
           <button
@@ -81,6 +80,15 @@ export function Navbar() {
                   </a>
                 </li>
               ))}
+              <li className="mt-2 pt-2 border-t border-white/5">
+                <a
+                  href="#contact"
+                  onClick={() => setOpen(false)}
+                  className="flex items-center justify-center rounded-xl bg-gradient-brand px-4 py-2.5 text-sm font-medium text-primary-foreground shadow-glow hover:opacity-90 transition"
+                >
+                  Contact
+                </a>
+              </li>
             </ul>
           </div>
         )}
