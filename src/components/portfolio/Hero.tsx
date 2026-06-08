@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { ArrowRight, Mail } from "lucide-react";
-import heroAvatarAsset from "@/assets/profile.jpg.asset.json";
-const heroAvatar = heroAvatarAsset.url;
+import heroAvatar from "@/assets/profile_photo.jpg";
 
 const roles = [
   "DevOps Enthusiast",
