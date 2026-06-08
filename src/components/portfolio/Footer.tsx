@@ -35,7 +35,7 @@ export function Footer() {
             <a href="https://linkedin.com/in/vujjini-rohan" aria-label="LinkedIn" className="grid place-items-center h-10 w-10 rounded-xl glass hover:bg-white/10 transition">
               <Linkedin className="h-4 w-4" />
             </a>
-            <a href="mailto:rohan.vujjini@email.com" aria-label="Email" className="grid place-items-center h-10 w-10 rounded-xl glass hover:bg-white/10 transition">
+            <a href="mailto:vujjinirohan@gmail.com" aria-label="Email" className="grid place-items-center h-10 w-10 rounded-xl glass hover:bg-white/10 transition">
               <Mail className="h-4 w-4" />
             </a>
           </div>
