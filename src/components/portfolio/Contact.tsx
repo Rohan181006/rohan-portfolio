@@ -15,16 +15,7 @@ export function Contact() {
           <InfoRow icon={Mail} label="Email" value="rohan.vujjini@email.com" href="mailto:rohan.vujjini@email.com" />
           <InfoRow icon={Linkedin} label="LinkedIn" value="linkedin.com/in/vujjini-rohan" href="https://linkedin.com/in/vujjini-rohan" />
           <InfoRow icon={MapPin} label="Location" value="Hyderabad, Telangana, India" />
-
-          <div className="mt-2 flex gap-3">
-            <a
-              href="#"
-              aria-label="GitHub"
-              className="grid place-items-center h-12 w-12 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transition"
-            >
-              <Github className="h-5 w-5" />
-            </a>
-          </div>
+          <InfoRow icon={Github} label="Github" value="github.com/Rohan181006" href="https://github.com/Rohan181006" />
         </div>
       </div>
     </Section>
