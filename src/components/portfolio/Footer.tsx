@@ -29,7 +29,7 @@ export function Footer() {
           </nav>
 
           <div className="flex md:justify-end gap-3">
-            <a href="#" aria-label="GitHub" className="grid place-items-center h-10 w-10 rounded-xl glass hover:bg-white/10 transition">
+            <a href="https://github.com/Rohan181006" aria-label="GitHub" className="grid place-items-center h-10 w-10 rounded-xl glass hover:bg-white/10 transition">
               <Github className="h-4 w-4" />
             </a>
             <a href="https://linkedin.com/in/vujjini-rohan" aria-label="LinkedIn" className="grid place-items-center h-10 w-10 rounded-xl glass hover:bg-white/10 transition">

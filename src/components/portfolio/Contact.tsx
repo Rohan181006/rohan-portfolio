@@ -12,10 +12,14 @@ export function Contact() {
       <div className="max-w-xl">
         {/* Info card */}
         <div className="glass rounded-3xl p-8 flex flex-col gap-4 shadow-soft">
-          <InfoRow icon={Mail} label="Email" value="rohan.vujjini@email.com" href="mailto:rohan.vujjini@email.com" />
+          <InfoRow icon={Mail} label="Email" value="rohan.vujjini@email.com" href="mailto:vujjinirohan@email.com" />
           <InfoRow icon={Linkedin} label="LinkedIn" value="linkedin.com/in/vujjini-rohan" href="https://linkedin.com/in/vujjini-rohan" />
           <InfoRow icon={MapPin} label="Location" value="Hyderabad, Telangana, India" />
           <InfoRow icon={Github} label="Github" value="github.com/Rohan181006" href="https://github.com/Rohan181006" />
+
+          <div className="mt-2 flex gap-3">
+
+          </div>
         </div>
       </div>
     </Section>
